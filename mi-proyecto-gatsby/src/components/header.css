@@ -37,14 +37,16 @@
   font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease,
+    color 0.2s ease;
   box-shadow: 0 2px 8px rgba(17, 24, 39, 0.12);
 }
 
 .menu-button:hover {
-  background: #e5e7eb;
+  background: #2563eb;
+  color: #ffffff;
   transform: translateY(-1px);
-  box-shadow: 0 6px 14px rgba(17, 24, 39, 0.14);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3);
 }
 
 .menu-button:active {
