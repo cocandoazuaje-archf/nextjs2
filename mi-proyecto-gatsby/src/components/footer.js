@@ -5,7 +5,7 @@ export default function Footer() {
     <footer style={styles.footer}>
       {/* Sección superior: Ubicación */}
       <div style={styles.locationSection}>
-        <span style={styles.locationText}>Chile</span>
+        <span style={styles.locationText}>### Footer &rarr; Chile</span>
       </div>
 
       {/* Sección inferior: Enlaces */}
