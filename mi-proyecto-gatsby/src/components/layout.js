@@ -1,17 +1,11 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
- */
-
-import * as React from "react" // <--- FALTABA ESTA LÍNEA
+import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
 import Footer from "./footer"
 import GaleriaComponent from "./GaleriaComponent"
+import Varios from "./Varios" // <--- Importación del componente
 
 function Layout({ children }) {
   const data = useStaticQuery(graphql`
@@ -28,6 +22,7 @@ function Layout({ children }) {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <GaleriaComponent /> 
+      <Varios /> {/* <--- Renderizado aquí */}
       <Footer />
       <div
         style={{

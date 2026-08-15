@@ -212,7 +212,7 @@ const GaleriaComponent = () => {
       `}</style>
 
       <header className="galeria-header">
-        <h2>Galería de Imágenes</h2>
+        <h3>### Cuerpo Medio → Galería de Imágenes</h3>
         <p>Haz clic en cualquier imagen para desplegar el visor a pantalla completa</p>
       </header>
 
