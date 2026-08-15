@@ -3,6 +3,7 @@ import * as React from "react"
 const Varios = () => {
   return (
     <div>
+        
       <nav
         className="main-menu"
         aria-label="Main navigation"
@@ -12,7 +13,7 @@ const Varios = () => {
           alignItems: "center",
           gap: "15px",
         }}
-      >
+      > ### Menu Inferior &rarr; 
         <a
           href="https://www.hp.com"
           target="_blank"
